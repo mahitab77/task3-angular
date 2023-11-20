@@ -1,0 +1,44 @@
+#formid{
+    width:75%;
+    height: 100%;
+    display:flex;
+    flex-direction:column;
+    row-gap: 20px;
+    justify-content: center;
+    align-items: start;
+    padding-left: 250px;
+}
+.labelinput{
+    display:flex;
+    flex-direction:column;
+    row-gap: 10px;
+}
+.labelclass{
+    width:150px;
+    height: 40px;
+    color:navy;
+    font-size: 30px;
+    font-weight: 500;
+}
+.inputfield{
+    width:650px;
+    height: 50px;
+    font-size: 15px;
+    color:rgb(74, 74, 74);
+    padding-top: 10px;
+    padding-left: 15px;
+    border:2px solid rgb(113, 113, 113);
+    border-radius:5px;
+}
+#checkboxinput{
+    width:20px;
+    height: 20px;
+}
+#btn{
+    width:200px;
+    border: none;
+    height: 50px;
+    background-color:navy;
+    color:white;
+    border-radius: 10px;
+}
